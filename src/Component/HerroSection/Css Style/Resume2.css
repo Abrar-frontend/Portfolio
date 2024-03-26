@@ -1,0 +1,30 @@
+.Resume2{
+        background-color: white;
+        box-shadow: 2px 2px 2px 4px gray;
+        margin-top: 10%;
+        width: 100%;
+        height: 60vh;
+        padding: 5% 0 0 5%;
+        z-index: -50;
+        position: relative;
+}
+.Resume2 h3{
+        font-weight: 700;
+}
+.Resume2 .partenBox{
+        /* border: 1px solid gainsboro; */
+        margin-top: 4%;
+        display: flex;
+        gap: 30%;
+}
+.Resume2 .partenBox p{
+        position: relative;
+        bottom: 18px;
+        left: 25px;
+}
+.Resume2 .smallbox{
+        background-color: blue;
+        width: 8%;
+        height: 2vh;
+        /* margin-left: 15%; */
+}

@@ -1,0 +1,99 @@
+.Rescontainer{
+    background-color: #E6DACE;
+    padding-top: 8%;
+    width: 100%;
+    margin-top: 19vh;
+    padding-bottom: 25vh;
+}
+
+/* Heading Logo start */
+.ResHeading{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0.5%;
+}
+
+.ResHeading h2{
+    font-weight: bold;
+    font-size: 3vw;
+ }
+
+.ResHeading .ResBox{
+    background-color: blue;
+    /* border: 2px solid green; */
+    width: 1.8%;
+    height: 3.8vh;
+}
+
+/* second starting */
+.ResSecDiv{
+    /* border: 2px solid black; */
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.SecDivH2{
+font-size: 2.3vw;
+font-weight: bold;
+}
+.SecDivBtn{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    width: 12%;
+}
+.SecDivBtn:hover{
+    border: 1px solid blue;
+}
+/* third part of website */
+.ResBoxes{
+   
+    width: 60vw;
+    margin: auto;
+    margin-top: 4%;
+    /* height: 150vh; */
+
+}
+.ResBoxes .ResEdu{
+    margin-top: 13%;
+    margin-bottom: 4%;
+    font-weight: 700;
+}
+
+
+
+
+@media screen and (max-width: 620px) {
+    .Rescontainer{
+        padding-right: 50%;
+    }
+
+    .ResHeading .ResBox{
+        background-color: blue;
+        /* border: 2px solid green; */
+        width: 4%;
+        height: 1.5vh;
+    }
+
+    .SecDivBtn{
+        width: 50%;
+        /* border: 2px solid;
+        display: block; */
+    }
+
+    .SecDivH2{
+        font-size: 4vw;
+        font-weight: bold;
+        }
+
+        .ResSecDiv{
+           
+            margin-left: 10%;
+            display: flex;
+            justify-content: space-between;
+            width: 120%;
+        }
+}
+
+

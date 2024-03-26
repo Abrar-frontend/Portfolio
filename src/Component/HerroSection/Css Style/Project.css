@@ -1,0 +1,56 @@
+.ProjectPara{
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+
+.ProjectCard{
+    background-color: white;
+    width: 57%;
+    margin: auto;
+    margin-top: 6%;
+    display: flex;
+}
+.Cardpara{
+    width: 60%;
+    padding-left: 8%;
+}
+
+.Cardpara h4{
+    margin-top: 17%;
+    color: blue;
+    font-weight: bold;
+}
+
+
+
+/* Card Picture style starting from here */
+
+.CardPic{
+    width: 40%;
+    height: 67vh;
+}
+
+
+
+
+
+@media screen and (max-width: 780px) {
+    .ProjectCard{
+        background-color: white;
+        width: 90%;
+        margin: auto;
+        margin-top: 6%;
+       flex-direction: column;
+    }
+
+    .CardPic{
+        width: 100%;
+        height: 67vh;
+    }
+    .Cardpara{
+        width: 100%;
+        padding-left: 8%;
+    }
+  }
