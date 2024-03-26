@@ -33,9 +33,9 @@ function HeroLeftPart() {
             </div>
             
             <div className=' w-80'>
-                <p className='mb-6'>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
+                <p className='mb-6'>I'm Abrar khan. I have done CIT diploma in DAE from Goverment College of Technology in Side Area. I am Frontend Developer have Strong command in HTML, CSS, JAVASCRITS and It's frameWork </p>
 
-                <p>I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                <p>I'am do Web-Development Course of 1 year from suffah insitute.You Download My Resume click on Resume Button</p>
             </div>  
 
         </div>
