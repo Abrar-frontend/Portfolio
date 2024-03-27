@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <>
     
-    <div className="w-100 h-20 flex items-center justify-between bg-slate-50 px-10 relative">
+    <div className="w-100 h-20 flex items-center justify-between bg-slate-50 px-2 md:px-10 relative">
 
         <div className="flex gap-4 items-center z-0">
     {/*  dotted div */}
@@ -21,8 +21,8 @@ function Navbar() {
             <div className=' flex gap-2 font-semibold flex-col sm:flex-row'>
 
          
-            <h2 className='font-bold  text-3xl'>Abrar khan</h2>
-            <h4 className=' text-2xl mt-1'> / PROJECT MANAGER</h4>
+            <h2 className='font-bold  sm:text-2xl md:text-3xl cusClass'>Abrar khan</h2>
+            <h4 className=' text-2xl mt-1'> / Frontend Developer</h4>
           
 
             </div>

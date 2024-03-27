@@ -2,7 +2,7 @@
     background-color: white;
     box-shadow: 2px 2px 2px 4px gray;
     margin-bottom: 6%;
-    width: 100%;
+    width: 98%;
     height: 58vh;
     padding: 5% 0 0 5%;
     display: flex;
@@ -26,6 +26,9 @@
 
 @media only screen and (max-width: 620px) {
     .remExp{
-      width: 130%;
+      width: 98%;
+      height: auto;
+      border: 2px solid;
+      /* border: 2px solid yellow; */
     }
   }

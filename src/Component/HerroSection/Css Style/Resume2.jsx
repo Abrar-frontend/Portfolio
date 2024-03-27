@@ -4,7 +4,7 @@ import './Resume2.css'
 export default function Resume2() {
   return (
     <>
-        <div className="Resume2" style = {{zIndex:'-20'}}>
+        <div className="Resume2" style = {{zIndex:'-10'}}>
          
          
          <h3> Proffesional Skillset </h3>

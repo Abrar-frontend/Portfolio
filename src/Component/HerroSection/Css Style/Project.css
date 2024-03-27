@@ -1,3 +1,13 @@
+.parentCont{
+    background-color: #E6DACE;
+    padding-top: 8%;
+    width: 100%;
+    margin-top: 19vh;
+    padding-bottom: 25vh;
+    border: 2px solid;
+}
+
+
 .ProjectPara{
     width: 50%;
     margin: auto;
@@ -33,16 +43,31 @@
 }
 
 
-
+/* .Rescontainer{
+    padding-right: 1px;
+    padding-left: 5px;
+    border: 2px solid mediumblue;
+   } */
 
 
 @media screen and (max-width: 780px) {
+
+    /* .parentCont{
+
+    } */
+    
     .ProjectCard{
         background-color: white;
-        width: 90%;
+        width: 100%;
         margin: auto;
         margin-top: 6%;
        flex-direction: column;
+    }
+
+    .ProjectPara{
+        width: 100%;
+        margin-top: 2%;
+        margin-left: 1.5%;
     }
 
     .CardPic{
@@ -51,6 +76,6 @@
     }
     .Cardpara{
         width: 100%;
-        padding-left: 8%;
+        padding-left: 1.5%;
     }
   }

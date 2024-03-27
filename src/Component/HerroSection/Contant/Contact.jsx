@@ -27,7 +27,7 @@ marginRight : '2%'
 export default function Contact() {
   return (
     <>
-      <div className="Rescontainer">
+      <div className="parentContainer">
        
 
        <div className="ResHeading">

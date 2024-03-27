@@ -1,3 +1,11 @@
+.parentContainer{
+    background-color: #E6DACE;
+    padding-top: 8%;
+    width: 100%;
+    margin-top: 19vh;
+    padding-bottom: 25vh;
+}
+
 .contactBody {
     background-color: white;
     width: 50vw;
@@ -39,15 +47,22 @@
 }
 
 @media screen and (max-width: 620px) {
+    .parentContainer{
+        padding-top: 15%;
+        padding-bottom: 15vh;
+    }
+    .contactBody {
+        width: 90vw;
+        height: 140vh;
+        margin-top: 2%;
+        padding-top: 2%;
+        gap: 7%;
+    }
     .firstField{
-        padding-top: 50%;
-        display : flex;
         flex-direction : column;
-        gap: 30%;
-        margin-left : 2%;
-        margin-right : 2%;
-        height: 30%;
-        /* border: 2px solid; */
+        gap: 35%;
+        margin: 10% 0.5;
+        height: 20%;
     }
     .inputField {
         border: none;
@@ -57,8 +72,6 @@
     }
     .custom-button {
         width: 40%;
-        /* margin-left: 2%;
-        margin-top: -2%; */
         margin: auto;
     }
 }

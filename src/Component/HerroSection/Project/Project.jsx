@@ -1,12 +1,12 @@
 import React from 'react';
-import '../Css Style/Project.css';
 import Picture1 from '../../pic/pic1.jpg'
+import '../Css Style/Project.css';
 
 export default function Project() {
   return (
     <>
 
-<div className="Rescontainer">
+<div className="parentCont">
        
 
        <div className="ResHeading">
@@ -21,11 +21,11 @@ export default function Project() {
 
         <div className="Cardpara">
             <div>
-            <h4> Project Name 01 </h4>
-            <p style={{fontWeight:'500px'}}>Role Title</p>
+            <h4> GUESSING THE NO </h4>
+            <p style={{fontWeight:'500px'}}>Frontend Developer</p>
             </div>
 
-            <p style={{textAlign:'left',marginTop:'8%',fontSize:'20px'}}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia accusantium odio consequuntur, consequatur dolore delectus qui accusamus voluptates laborum, dolorum nemo earum recusandae magnam, tenetur nihil aliquam deleniti minus iste!</p>
+            <p style={{textAlign:'left',marginTop:'8%',fontSize:'20px'}}>This project involves guessing the correct number. Once the game starts, the user needs to guess the correct number. The special thing about this project is that I developed the code at a professional level. </p>
         </div>
 
         <div className="CardPic">
