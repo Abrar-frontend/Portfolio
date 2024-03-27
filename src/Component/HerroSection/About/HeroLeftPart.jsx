@@ -33,9 +33,9 @@ function HeroLeftPart() {
             </div>
             
             <div className=' w-80'>
-                <p className='mb-6'>I'm Abrar khan. I have done CIT diploma in DAE from Goverment College of Technology in Side Area. I am Frontend Developer have Strong command in HTML, CSS, JAVASCRITS and It's frameWork </p>
+                <p className='mb-6'>I'm Abrar Khan. I have completed a CIT diploma in DAE from Government College of Technology in Side Area. I am a Frontend Developer with a strong command of HTML, CSS, JavaScript, and its frameworks. </p>
 
-                <p>I'am do Web-Development Course of 1 year from suffah insitute.You Download My Resume click on Resume Button</p>
+                <p>I have completed a 1-year Web Development Course from Suffah Institute. To download my resume, click on the Resume Button.</p>
             </div>  
 
         </div>
