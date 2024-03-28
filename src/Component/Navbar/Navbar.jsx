@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <>
     
-    <div className="w-100 h-20 flex items-center justify-between bg-slate-50 px-2 md:px-10 relative">
+    <div className="w-100 h-20 flex items-center justify-between bg-slate-50 px-6 md:px-10 relative">
 
         <div className="flex gap-4 items-center z-0">
     {/*  dotted div */}

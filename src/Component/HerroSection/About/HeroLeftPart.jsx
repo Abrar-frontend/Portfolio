@@ -18,7 +18,7 @@ function HeroLeftPart() {
 
   return (
     <>
-    <div className='w-full pb-36 pt-24 box-border pl-20'>
+    <div className='w-full pb-36 pt-24 box-border pl-20  '>
     
         <div className=' flex flex-col gap-12 mt-20'>
 
@@ -32,7 +32,7 @@ function HeroLeftPart() {
                
             </div>
             
-            <div className=' w-80'>
+            <div className='w-44 sm:w-80'>
                 <p className='mb-6'>I'm Abrar Khan. I have completed a CIT diploma in DAE from Government College of Technology in Side Area. I am a Frontend Developer with a strong command of HTML, CSS, JavaScript, and its frameworks. </p>
 
                 <p>I have completed a 1-year Web Development Course from Suffah Institute. To download my resume, click on the Resume Button.</p>

@@ -4,7 +4,7 @@ import './Resume2.css'
 export default function Resume2() {
   return (
     <>
-        <div className="Resume2" style = {{zIndex:'-10'}}>
+        <div className="Resume2" style = {{zIndex:'-10',overflow:'hidden'}}>
          
          
          <h3> Proffesional Skillset </h3>
@@ -13,11 +13,11 @@ export default function Resume2() {
  
           {/*<----- ONE------> */}
          <div className="parentChil">
-         <div className='smallbox'> </div> <p> Entrepreneurial Mindset </p>
+         <div className='smallbox'> </div> <p> HTML LANGUAGE </p>
          </div>
           
          <div className="parentChil">
-         <div className='smallbox'> </div> <p> Go-to-Market Planning </p>
+         <div className='smallbox'> </div> <p> CASCADING STYLE SHEET </p>
          </div>
           
            
@@ -29,11 +29,11 @@ export default function Resume2() {
 
 
         <div className="parentChil">
-        <div className='smallbox'> </div> <p> Entrepreneurial Mindset </p>
+        <div className='smallbox'> </div> <p> JAVASCRIPT LANGUAGE</p>
         </div>
 
         <div className="parentChil">
-        <div className='smallbox'> </div> <p> Go-to-Market Planning </p>
+        <div className='smallbox'> </div> <p>  LIBRARIES & FRAMEWORKS </p>
         </div>
 
 
@@ -46,11 +46,11 @@ export default function Resume2() {
 
  {/*<----- ONE------> */}
 <div className="parentChil">
-<div className='smallbox'> </div> <p> Urdu (native) </p>
+<div className='smallbox'> </div> <p> Urdu (Native) </p>
 </div>
  
 <div className="parentChil">
-<div className='smallbox'> </div> <p> English (proficient) </p>
+<div className='smallbox'> </div> <p> English (Proficient) </p>
 </div>
  
 </div>

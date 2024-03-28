@@ -4,7 +4,7 @@ function Footer() {
 
   return (
     <>
-        <div className='w-full flex flex-col-reverse md:flex-row mb-0 bg-white '>
+        <div className='w-full flex flex-col-reverse md:flex-row mb-0 bg-white ms-4'>
         
             {/* left div of footer is starting from here */}
 

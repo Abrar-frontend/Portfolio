@@ -1,7 +1,7 @@
 import React from 'react';
 import './Resume1.css';
 
-export default function Resume1() {
+export default function Resume1({college}) {
   return (
     <>
 
@@ -10,19 +10,19 @@ export default function Resume1() {
     
     <div className="EduLeft  ">
 
-    <h3 style={{color:'blue',fontWeight:'bold'}}> 2024 </h3>
-    <p className='sm:mt-6 md:mt-4'> JOB POSITION</p>
-    <p className='sm:mt-6 md:mt-4'> Company Name</p>
-    <p className='sm:mt-6 md:mt-4'> Company Location</p>
+    <h3 style={{color:'blue',fontWeight:'bold'}}> {college.DatePassing} </h3>
+    <p className='sm:mt-6 md:mt-4'> {college.Name} </p>
+    <p className='sm:mt-6 md:mt-4'> {college.Degree} </p>
+    <p className='sm:mt-6 md:mt-4'> {college.Address} </p>
 
     </div>
 
 
     <div className="EduRight">
 
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae doloribus harum tempora accusantium voluptatibus officiis tempore excepturi sunt cum eveniet laborum dignissimos rem, debitis quaerat neque asperiores dolores nam est!</p>
+     <p>{college.Paraghraph} </p>
 
-     <p style={{marginTop:'2%'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae doloribus harum tempora accusantium voluptatibus officiis tempore excepturi sunt cum eveniet </p>
+     <p style={{marginTop:'2%'}}>{college.Paraghraph2} </p>
     </div>
 
 

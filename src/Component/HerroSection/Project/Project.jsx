@@ -1,5 +1,5 @@
 import React from 'react';
-import Picture1 from '../../pic/pic1.jpg'
+import Picture1 from '../../pic/pic1.png'
 import '../Css Style/Project.css';
 
 export default function Project() {
@@ -29,7 +29,7 @@ export default function Project() {
         </div>
 
         <div className="CardPic">
-         <div style={{backgroundImage:`URL(${Picture1})`,backgroundRepeat: 'no-repeat',backgroundSize:'cover',width:'100%',height:'100%'}}>
+         <div style={{backgroundImage:`URL(${Picture1})`,backgroundRepeat: 'no-repeat',backgroundSize:'contain' , backgroundPosition: 'left' ,width:'100%',height:'100%'}}>
 
          </div>
         </div>
